@@ -77,7 +77,7 @@ class TabCard {
   }
   deselectCard(){
     // Update the style of this.element to display = "none"
-    this.element = 'none';
+    this.element.style.display = 'none';
   }
 }
 
